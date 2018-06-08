@@ -17,7 +17,7 @@
         nav.level
           .level-left
             a.level-item
-              span.icon.is-small 
+              a.button.is-success.is-toggle-rounded(@click="selectTrack", target="_blank") Selecionar
 </template>
 
 <script>
@@ -26,6 +26,11 @@ export default {
     track: {
       type: Object,
       required: true
+    }
+  },
+  methods: {
+    selectTrack() {
+      this.$emit("selected", this.track.mbid);
     }
   }
 };

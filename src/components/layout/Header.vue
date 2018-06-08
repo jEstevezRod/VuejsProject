@@ -12,7 +12,7 @@
         h1.title Vue Music
         h2.subtitle Canciones que están Vuenísimas
     .hero-foot
-      navbar.tabs.is-boxed.is-fullwidth
+      nav.tabs.is-boxed.is-fullwidth
         .container
           ul
             li.is-active
