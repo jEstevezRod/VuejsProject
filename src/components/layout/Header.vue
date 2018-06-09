@@ -5,20 +5,21 @@
         .container
           .navbar-left
             .navbar-item
+              img.is-48x48(src="../../assets/logo.png")
               strong Vue Music by jEstevezRod 
           .navbar-right.navbar-menu
     .hero-body
       .container.has-text-centered
-        h1.title Vue Music
-        h2.subtitle Canciones que están Vuenísimas
+        h1.title.has-text-grey-dark Vue Music
+        h2.subtitle.has-text-dark Canciones que están Vuenísimas
     .hero-foot
       nav.tabs.is-boxed.is-fullwidth
         .container
           ul
             li.is-active
-              a Canciones
+              router-link(to="/") Canciones
             li
-              a Artistas
+              router-link(to="about") Artistas
             li
               a Albumes
             li
