@@ -94,7 +94,7 @@ export default {
 #cajita {
   padding-top: 10px;
 }
-vm-track .is-active {
+#cajita .is-active {
   border: 2px #1381ff solid;
 }
 </style>

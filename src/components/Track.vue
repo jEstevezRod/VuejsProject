@@ -7,7 +7,7 @@
       .media
         .media-left
           figure.image.is-48x48
-            img(:src="track.image[3]['#text']")
+            img(:src="track.image[3]['#text']", class="peque")
         .media-content
           p.title.is-6
             strong {{ track.name}}
@@ -37,4 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.peque {
+  border-radius: 50%;
+}
 </style>
